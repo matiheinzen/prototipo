@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL FE</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/f76be3a348.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gluten:wght@200&family=Mochiy+Pop+One&family=Pacifico&family=Quicksand:wght@700&family=Qwitcher+Grypen&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="divfoto">
+            <div class="imgarriba1">
+                <img src="./gif santafe.gif" alt="santafe" class="fotosf">
+            </div>
+            <div class="imgarriba2">
+                <img src="./2.png" alt="">
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./somos.html">¿Quienes Somos?</a></li>
+                <li><strong><a href="./reservas.html">Reservas</a></strong></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+            </ul>
+            <i class="fa-solid fa-circle-info  fa-xl" id="info"></i>
+        </div>
+    </div>
+    <div class="reservasTotal">
+        <div>
+            <form action="" class="form" id="form">
+                    <legend id="reserva" class="legendaReserva">Datos de Reserva</legend>
+                    <label for="nombre"> Nombre y Apellido: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido">
+                    <label for="number"> DNI: </label>
+                    <input type="number" name="number" id="DNI" placeholder="Ingrese su DNI">
+                    <label for="text"> direccion: </label>
+                    <input type="tel" name="tel" id="tel" placeholder="Direccion" >
+                    <label for="text"> Localidad: </label>
+                    <input type="tel" name="tel" id="tel" placeholder="Localidad" >
+            </form>
+        </div>
+            <div class="calendarios">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FCordoba&showTitle=0&showPrint=0&showTz=0&showCalendars=0&src=bWF0aWFzaGllbnplbjA4QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTE4MTIyNjQ0MTM2NjA5MjQ2NDM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZmFtaWx5MTEwNDI5NTQ0NTgxOTYyNzc4MThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExNzEyMTc3MjE2MzkzOTg5OTkzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=c2FudGFmZXZpcnR1YWwuZWR1LmFyX2NsYXNzcm9vbTdkNWM0ZjljQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA2MTEwODMxODczMzQ0NzI4MDk5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExMDI3NTQ3NjU2NTM0OTY4ODM3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%23b80672&color=%23F4511E&color=%237986CB&color=%23202124&color=%23007b83&color=%23007b83&color=%23202124" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" class="calendario"></iframe>
+            </div>
+            <div class="botonMultiple">
+                <form action="#" class="elegir">
+                    <legend id="" class="">ELEGIR HABITACION</legend>
+                    <select name="tipos" id="">
+                      <option value="doble">Habitacion doble</option>
+                      <option value="tripe">Habitacion tripe</option>
+                      <option value="suite">Suite</option>
+                    </select>
+                    <BR></BR>
+                    <div class="btn">
+                        <button class="btn--default" type="submit">Enviar reserva</button>
+                        <button class="btn--default" type="submit">cancelar</button>
+                    </div>
+              </form>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="iconsfooter"> 
+            <i class="fa-brands fa-cc-visa  fa-xl"></i>
+            <i class="fa-brands fa-cc-amex  fa-xl"></i>
+            <i class="fa-brands fa-cc-mastercard fa-xl"></i>
+            <i class="fa-solid fa-money-bill-transfer fa-xl"></i>
+        </div>
+        <div><p>Hotel Fe</p></div>
+        <div class="iconsfooter"> 
+            <i class="fa-brands fa-instagram fa-xl"></i>
+            <i class="fa-brands fa-telegram fa-xl "></i>
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+            <i class="fa-regular fa-map fa-xl "></i>
+        </div>
+    </div>
+</body>
+</html>
